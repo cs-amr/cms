@@ -63,10 +63,10 @@ export default function Aside() {
               <li>
                 <Link
                   key={index}
-                  className={`rounded flex  px-2 py-[5px] md:pr-16 items-center capitalize gap-2 hover:bg-zinc-200 dark:hover:bg-zinc-800 ${
+                  className={`rounded flex  md:px-2 md:py-[5px] py-4 px-4 md:pr-16 items-center capitalize gap-2 hover:bg-zinc-200 dark:hover:bg-zinc-800 ${
                     subPath === link && "bg-zinc-200 dark:bg-zinc-800"
                   }`}
-                  title="Overview "
+                  title={link}
                   href={link}
                 >
                   {svg}

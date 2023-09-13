@@ -9,12 +9,14 @@ import {
 import Link from "next/link";
 export default function ProjectCard() {
   return (
-    <Link href="/dashboard/audiophile/overview">
+    <div>
       <Card>
         <CardHeader>
           <div className="flex justify-between">
-            <CardTitle className="text-xl">audiophile</CardTitle>
-            <Link href="/">
+            <CardTitle className="text-xl">
+              <Link href="/dashboard/audiophile/overview">audiophile</Link>
+            </CardTitle>
+            <Link href="/dashboard/audiophile/overview">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="12"
@@ -43,6 +45,6 @@ export default function ProjectCard() {
           <p className="uppercase font-semibold text-xs">blog</p>
         </CardFooter>
       </Card>
-    </Link>
+    </div>
   );
 }

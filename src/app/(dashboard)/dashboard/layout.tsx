@@ -7,16 +7,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
-      <html lang="en" suppressHydrationWarning>
-        <head />
-        <body>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <Header />
-            {children}
-          </ThemeProvider>
-        </body>
-      </html>
-    </>
+    <div>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <Header />
+        {children}
+      </ThemeProvider>
+    </div>
   );
 }

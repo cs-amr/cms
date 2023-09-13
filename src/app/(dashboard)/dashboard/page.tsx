@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import React from "react";
 import ProjectCard from "@/components/Card";
+import AddApp from "@/components/AddApp";
 
 export default function page() {
   return (
@@ -12,9 +12,7 @@ export default function page() {
         >
           Your Apps{" "}
         </h1>
-        <Button className=" inline-block md:ml-auto mt-4 md:mt-4 font-semibold ">
-          + Create a new app
-        </Button>
+        <AddApp />
       </div>
       <section className="grid grid-cols-1 gap-6 md:grid-cols-3 sm:grid-cols-2">
         <ProjectCard />
