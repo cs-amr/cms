@@ -16,13 +16,14 @@ export default function page() {
         <div className="my-8 border rounded-md p-4 w-full md:max-w-4xl">
           <h3>General</h3>
           <p className="text-xs text-gray-500">
-            Adjust your application's name and URL
+            Adjust your applications name and URL
           </p>
           <form className="md:max-w-[300px]">
             <Label className=" ">App Name </Label>
             <Input className="my-2" />
             <Label className="mb-2 mt-4">App URL</Label>
             <Input className="my-2" />
+            <Button>Save</Button>
           </form>
         </div>
         <div className="my-8 border rounded-md p-4 w-full md:max-w-4xl">

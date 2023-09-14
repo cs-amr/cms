@@ -9,7 +9,11 @@ import {
 import Link from "next/link";
 export default function ProjectCard() {
   return (
-    <div>
+    <div className="relative">
+      <Link
+        className="absolute top-0 left-0 right-0 bottom-0"
+        href="/dashboard/audiophile/overview"
+      ></Link>
       <Card>
         <CardHeader>
           <div className="flex justify-between">
@@ -41,7 +45,7 @@ export default function ProjectCard() {
           </CardDescription>
         </CardHeader>
 
-        <CardFooter>
+        <CardFooter className="mt-4">
           <p className="uppercase font-semibold text-xs">blog</p>
         </CardFooter>
       </Card>

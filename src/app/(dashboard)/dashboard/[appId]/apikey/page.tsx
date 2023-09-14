@@ -9,7 +9,7 @@ export default function page() {
       >
         Api Key
       </h1>
-      <p className="text-sm">View and manage your UploadThing API keys.</p>
+      <p className="text-sm">View and manage your API keys.</p>
       <section className="mt-8">
         <div className="font-bold">Your Api Key</div>
 

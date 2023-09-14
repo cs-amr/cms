@@ -60,7 +60,7 @@ export default function Aside() {
         <ul className="flex  justify-around  md:flex-col md:justify-start gap-3 ">
           {links?.map(({ link, svg }, index) => {
             return (
-              <li>
+              <li key={index}>
                 <Link
                   key={index}
                   className={`rounded flex  md:px-2 md:py-[5px] py-4 px-4 md:pr-16 items-center capitalize gap-2 hover:bg-zinc-200 dark:hover:bg-zinc-800 ${

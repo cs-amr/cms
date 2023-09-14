@@ -12,34 +12,12 @@ export default function Header() {
           headless
         </Link>
         <div className="flex gap-4 text-black dark:text-white">
-          {login ? (
-            <>
-              <Link href={"/"} className="ml-auto text-sm">
-                Sign up
-              </Link>
-              <Link
-                href={"/"}
-                className="  text-sm font-semibold  rounded-full px-3 py-[1px]"
-              >
-                Log in
-              </Link>
-            </>
-          ) : (
-            <>
-              <Link
-                href={"/"}
-                className=" text-sm  font-semibold h-fit my-auto rounded-full px-3 "
-              >
-                Dashboard
-              </Link>
-              <ModeToggle />
+          <ModeToggle />
 
-              <Avatar className="w-8 h-8">
-                <AvatarImage src="https://github.com/shadcn.png" />
-                <AvatarFallback>CN</AvatarFallback>
-              </Avatar>
-            </>
-          )}
+          <Avatar className="w-8 h-8">
+            <AvatarImage src="https://github.com/shadcn.png" />
+            <AvatarFallback>CN</AvatarFallback>
+          </Avatar>
         </div>
       </div>
     </header>

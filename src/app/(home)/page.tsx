@@ -1,7 +1,4 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Header from "@/components/header";
 import HomeHeader from "@/components/homeHeader";
 
 export default function Home() {
@@ -18,11 +15,11 @@ export default function Home() {
           </div>
 
           <section className="text-center py-40">
-            <h1 className="gradient-text sm:text-5xl text-3xl  font-extrabold  mx-auto text-center   ">
+            <h1 className="gradient-text sm:text-4xl text-3xl  font-extrabold space-x-1  mx-auto text-center   ">
               Content Mangement System <br /> For Your Website
             </h1>
 
-            <p className="text-white max-w-lg mx-auto my-4">
+            <p className="text-white max-w-lg mx-auto my-4 text-sm">
               Treat content as data actionable and scalable across your business
               with the Sanity Composable Content Cloud.
             </p>
