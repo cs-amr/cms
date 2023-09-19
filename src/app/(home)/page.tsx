@@ -24,7 +24,7 @@ export default function Home() {
               with the Sanity Composable Content Cloud.
             </p>
             <Link
-              href="/"
+              href="/signin"
               className="bg-white text-black font-semibold  border hover:text-white hover:bg-transparent py-2 px-4  m-4 rounded-full mt-8 block w-fit mx-auto"
             >
               GET STARTED
@@ -35,6 +35,3 @@ export default function Home() {
     </main>
   );
 }
-
-// background-image: linear-gradient(0deg, var(rgb(185, 187, 193), rgb(185, 187, 193)) 0%, var(, rgb(255, 255, 255)) 100%);
-// background-image: linear-gradient(0deg, rgb(185, 187, 193), 0%, var(, rgb(255, 255, 255)) 100%);
